@@ -6,12 +6,16 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CookpitComponent } from './cookpit/cookpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
+import { OddComponent } from './odd/odd.component';
+import { EvenComponent } from './even/even.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CookpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+    OddComponent,
+    EvenComponent
   ],
   imports: [
     BrowserModule,
